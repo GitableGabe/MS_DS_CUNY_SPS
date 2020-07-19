@@ -25,6 +25,11 @@ once the 'my.ini' file has been saved, you would have to restart MySQL server (e
 8. Run the loadflights.sql script.  Your script should return a table with row counts for each of the tables loaded
 
 Here is a 3 minute video that shows how to perform the MySQL Workbench steps outlined above:
+-- SHOW VARIABLES LIKE "secure_file_priv";
+				C:\ProgramData\MySQL\MySQL Server 8.0\Uploads
+
+Upload CSV files must be stored in above directory
+
 https://youtu.be/rnFxtaKGP4U
 
 For those of you that still had an issue with permissions in MySQL (related to secure-file-priv settings), you can make use of the sql scripts attached to the link below.   They contain the sql script to create the tables as well as insert the  data.   Please note you need to create the flights schema first, and then run the scripts on that schema.
