@@ -11,7 +11,7 @@ CREATE TABLE airlines (
   name varchar(30) NOT NULL
   );
   
-LOAD DATA INFILE 'D:\Git\MS_DS_CUNY_SPS\MySQL_Basics\flights\airlines.csv' 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/airlines.csv' 
 INTO TABLE airlines 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -28,7 +28,7 @@ CREATE TABLE airports (
   dst char(1)
   );
   
-LOAD DATA INFILE 'D:\Git\MS_DS_CUNY_SPS\MySQL_Basics\flights\airports.csv' 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/airports.csv' 
 INTO TABLE airports
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -54,7 +54,7 @@ hour integer,
 minute integer
 );
 
-LOAD DATA INFILE 'D:\Git\MS_DS_CUNY_SPS\MySQL_Basics\flights\flights.csv' 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/flights.csv' 
 INTO TABLE flights
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -88,7 +88,7 @@ speed integer,
 engine varchar(50)
 );
 
-LOAD DATA INFILE 'D:\Git\MS_DS_CUNY_SPS\MySQL_Basics\flights\planes.csv' 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/planes.csv' 
 INTO TABLE planes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -117,7 +117,7 @@ pressure double precision,
 visib double precision
 );
 
-LOAD DATA INFILE 'D:\Git\MS_DS_CUNY_SPS\MySQL_Basics\flights\weather.csv' 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/weather.csv' 
 INTO TABLE weather
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
