@@ -1,0 +1,12 @@
+Current Location
+C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/
+
+# Secure File Priv.
+secure-file-priv="C:/ProgramData/MySQL/MySQL Server 8.0/Uploads"
+
+Desirec location
+
+D:\Git\MS_DS_CUNY_SPS\MySQL_Basics\flights
+
+# Secure File Priv.
+secure-file-priv="D:\Git\MS_DS_CUNY_SPS\MySQL_Basics\flights"
