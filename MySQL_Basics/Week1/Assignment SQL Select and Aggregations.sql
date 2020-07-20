@@ -18,6 +18,8 @@ SELECT engines, max(seats) from flights.planes group by engines order by engines
 4	450
 
 -- 3. Show the total number of flights.
+SELECT COUNT(*) from flights.flights;
+336776
 
 -- 4. Show the total number of flights by airline (carrier).
 
