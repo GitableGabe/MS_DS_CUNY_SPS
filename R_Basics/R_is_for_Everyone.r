@@ -146,3 +146,27 @@ q
 q2
 q2Factor<- as.factor(q2)
 q2Factor
+as.numeric(q2Factor)
+factor(x=c("High School", "College", "Masters", "Doctorate"),
+levels=c("High School", "College", "Masters", "Doctorate"),
+ordered=TRUE)
+mean(x)
+?`+`
+?`*`
+?`==`
+?apropos
+apropos("mea")
+z<-c(1,2,NA,8,3,NA,3)
+z
+is.na(z)
+zChar<-c("Hockey",NA,"Lacrosse")
+zChar
+is.na(zChar)
+mean(z)
+z
+mean(z,na.rm=TRUE)
+sum(z,na.rm=TRUE)
+min(z,na.rm=TRUE)
+max(z,na.rm=TRUE)
+var(z,na.rm=TRUE)
+sd(z,na.rm=TRUE)
