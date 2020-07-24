@@ -170,3 +170,8 @@ min(z,na.rm=TRUE)
 max(z,na.rm=TRUE)
 var(z,na.rm=TRUE)
 sd(z,na.rm=TRUE)
+z<- c(1,NULL,3)
+z
+d<-NULL
+is.null(d)
+is.null(7)
