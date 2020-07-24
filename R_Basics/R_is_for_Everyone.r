@@ -57,3 +57,92 @@ date2<- as.POSIXct("2012-06-28 17:42")
 date2
 class(date2)
 as.numeric(date2)
+class(date1)
+class(as.numeric(date1))
+TRUE * 5
+FALSE * 5
+k<- TRUE
+class(k)
+is.logical("k")
+TRUE
+T
+class(T)
+T<- 7 
+T
+class(T)
+2 == 3
+2 != 3
+2 < 3
+2 <= 3
+2 > 3
+2 >= 3
+"data" == "stats"
+"data" < "stats"
+x<- c(1,2,3,4,5,6,7,8,9,10)
+x
+x * 3
+x
+x / 3
+x
+x + 2
+x
+x -2
+x
+x / 4
+x
+x * 4
+x
+x ^ 2
+x
+sqrt(x)
+1:10
+10:1
+-2:3
+5:-7
+x<- 1:10
+y<- -5:4
+x
+y
+x+y
+x-y
+x*y
+x/y
+x
+y
+x^y
+length(x)
+length(y)
+length(x+y)
+x
+x+c(1,2)
+x+c(1,2,3)
+x<=5
+x
+y
+x>y
+x<y
+x<10:1
+y<- -4:5
+all(x<y)
+any(x<y)
+q<- c("Hockey", "Football", "Baseball", "Curling", "Rugby",
+"Lacrosse", "Basketball", "Tennis", "Cricket", "Soccer")
+q
+nchar(q)
+y
+nchar(y)
+x<- 10:1
+x
+x[1]
+x[1:2]
+x[c(1,4)]
+c(One="a", Two="b", Last="r")
+w<- 1:3
+names(w)<-c("a","b","c")
+w
+q2<- c(q, "Hockey", "Lacrosse", "Water",
+"Polo", "Hockey", "Lacrosse")
+q
+q2
+q2Factor<- as.factor(q2)
+q2Factor
