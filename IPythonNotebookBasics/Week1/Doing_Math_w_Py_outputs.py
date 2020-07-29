@@ -276,4 +276,44 @@ Your Number Please: 2
 = RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Find_Factors_of_Int.py
 Your Number Please: 1
 1
+>>> item1 = 'apples'
+>>> item2 = 'bananas'
+>>> item3 = 'grapes'
+>>> print('At the grocery store, I bought some {0} and {1} and {2
+      
+SyntaxError: EOL while scanning string literal
+>>> print('At the grocery store, I bought some {0} and {1} and {2}'.format(item1,item2,item3))
+At the grocery store, I bought some apples and bananas and grapes
+>>> print('Number 1: {0
+      
+SyntaxError: EOL while scanning string literal
+>>> print('Number 1: {0} Number 2: {1}'.format(1, 3.578))
+Number 1: 1 Number 2: 3.578
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Multi_Table_Printer.py
+Enter a number: 5
+5.0 x 1=5.0
+5.0 x 2=10.0
+5.0 x 3=15.0
+5.0 x 4=20.0
+5.0 x 5=25.0
+5.0 x 6=30.0
+5.0 x 7=35.0
+5.0 x 8=40.0
+5.0 x 9=45.0
+5.0 x 10=50.0
+>>> '{0}'.format(1.253456)
+'1.253456'
+>>> '{0:.2f}'.format(1.25456)
+'1.25'
+>>> (25.5*2.54)/100
+0.6476999999999999
+>>> 650*1.609
+1045.85
+>>> F=98.6
+>>> (F-32)*(5/9)
+37.0
+>>> C=37
+>>> C*(9/5)+32
+98.60000000000001
 >>> 
