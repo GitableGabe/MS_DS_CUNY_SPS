@@ -1,3 +1,10 @@
+To launch, run the following in anaconda command prompt
+(base) C:\Users\gcamp>cd /D D:
+
+(base) D:\>cd D:\Git\MS_DS_CUNY_SPS\IPythonNotebookBasics\Week2
+
+(base) D:\Git\MS_DS_CUNY_SPS\IPythonNotebookBasics>jupyter notebook
+
 Week 2 Task List
 
 Read Parts I through V in Basics of Linear Algebra for Machine Learning
