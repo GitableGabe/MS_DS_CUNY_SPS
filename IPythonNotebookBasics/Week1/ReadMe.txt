@@ -28,7 +28,7 @@ In Doing Math with Python, complete the following using Colab in Python.  Save y
 
 Chapter 1.
 Programming Challenge 1 page 22, Even-Odd Vending Machine
-
+(Completed)
 Chapter 2.
 Programming Challenge 2 page 55, Exploring a Quadratic Function Visually
 

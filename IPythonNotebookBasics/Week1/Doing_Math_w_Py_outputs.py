@@ -317,3 +317,175 @@ Enter a number: 5
 >>> C*(9/5)+32
 98.60000000000001
 >>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Miles_and_Kilometers.py
+1. Kilometers to Mile
+2.Miles to Kilometers
+Which conversion would you like to do?: 1
+Traceback (most recent call last):
+  File "D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Miles_and_Kilometers.py", line 25, in <module>
+    km_mile()
+NameError: name 'km_mile' is not defined
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Miles_and_Kilometers.py
+1. Kilometers to Mile
+2. Miles to Kilometers
+Which conversion would you like to do?: 2
+Enter distance in miles: 2
+Traceback (most recent call last):
+  File "D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Miles_and_Kilometers.py", line 28, in <module>
+    miles_km()
+  File "D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Miles_and_Kilometers.py", line 17, in miles_km
+    km=miles*1.609
+NameError: name 'miles' is not defined
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Miles_and_Kilometers.py
+1. Kilometers to Mile
+2. Miles to Kilometers
+Which conversion would you like to do?: 2
+Enter distance in miles: 100
+Distance in kilometers: 160.9
+>>> 
+>>> x = 10 - 500 + 79
+>>> x
+-411
+>>> 
+>>> a = 1
+>>> b = 2
+>>> c = 1
+>>> D = (b**2 - 4*a*c)**0.5
+>>> x_1 = (-b + D)/(2*a)
+>>> x_1
+-1.0
+>>> x_2 = (-b - D)/(2*a)
+>>> x_2
+-1.0
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Quad_eq_root_calc.py
+Enter a: 1
+Enter b: 2
+Enter c: 1
+x1: -1.0
+x2: -1.0
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/Quad_eq_root_calc.py
+Enter a: 1
+Enter b: 1
+Enter c: 1
+x1: (-0.49999999999999994+0.8660254037844386j)
+x2: (-0.5-0.8660254037844386j)
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Traceback (most recent call last):
+  File "D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py", line 27, in <module>
+    a=integer(input('Enter an integer: '))
+NameError: name 'integer' is not defined
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+>>> 
+>>> 
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 1
+odd
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+19
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2
+4
+6
+8
+10
+12
+14
+16
+18
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+24681012141618
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 , 
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , Traceback (most recent call last):
+  File "D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py", line 30, in <module>
+    even_odd_vending_machine(a)
+  File "D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py", line 26, in even_odd_vending_machine
+    print(a*9+'.')
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 7
+odd
+7 , 9 , 11 , 13 , 15 , 17 , 19 , 21 , 23 , 25 , 27 , 29 , 31 , 33 , 35 , 37 , 39 , 41 , 43 , 45 , 47 , 49 , 51 , 53 , 55 , 57 , 59 , 61 , 63 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 , 6 , 10 , 14 , 18 , 18 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 , 20 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 ,4 ,6 ,8 ,10 ,12 ,14 ,16 ,18 ,20 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 ,4 ,6 ,8 ,10 ,12 ,14 ,16 ,18 ,20 .
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 2
+even
+2 ,4 ,6 ,8 ,10 ,12 ,14 ,16 ,18 ,20.
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 7
+odd
+7 ,14 ,21 ,28 ,35 ,42 ,49 ,56 ,63 ,70.
+>>> 
+= RESTART: D:/Git/MS_DS_CUNY_SPS/IPythonNotebookBasics/Week1/DMwP_Challenge_1.1.py
+Enter an integer: 9
+odd
+9 ,18 ,27 ,36 ,45 ,54 ,63 ,72 ,81 ,90.
+>>> 
